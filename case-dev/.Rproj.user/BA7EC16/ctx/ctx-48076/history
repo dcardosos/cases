@@ -1,0 +1,130 @@
+pwd
+setwd("~/Projects/repositories/quant_finance/finance/case-dev")
+install.packages('TIDYQUANT')
+install.packages('tidyquant')
+getsymbols('RAPT4.SA',
+from='2010-12-01',
+to='2020-02-01')
+# library
+# https://www.codingfinance.com/post/2018-03-27-download-price/
+library(tidyquant)
+getsymbols('RAPT4.SA',
+from='2010-12-01',
+to='2020-02-01')
+# library
+# https://www.codingfinance.com/post/2018-03-27-download-price/
+library(tidyquant)
+remove.packages("tidyquant", lib="~/R/x86_64-pc-linux-gnu-library/4.1")
+install.packages('tidyquant')
+install.packages("tidyquant")
+# library
+# https://www.codingfinance.com/post/2018-03-27-download-price/
+library(tidyquant)
+getsymbols('RAPT4.SA',
+from='2010-12-01',
+to='2020-02-01')
+getSymbols('RAPT4.SA',
+from='2010-12-01',
+to='2020-02-01')
+?getSymbols
+head(RAPTA4.SA)
+head(RAPT4.SA)
+getSymbols(c('RAPT4.SA', 'FFTL4.SA'),
+from='2010-12-01',
+to='2020-02-01')
+getSymbols(c('RAPT4.SA', 'FFTL4.SA'),
+from='2010-12-01',
+to='2020-02-01', interval='m')
+getSymbols(c('RAPT4.SA', 'FFTL4.SA'),
+from='2010-12-01',
+to='2020-02-01', interval='m')
+RAPT4.SA
+getSymbols(c('RAPT4.SA', 'FFTL4.SA'),
+from='2010-12-01',
+to='2020-02-01', periodicity='monthly')
+RAPT4.SA
+# read file
+composition <- read.csv('data/composicao_ibx_mensal.csv')
+# read file
+composition <- read.csv('data/composicao_ibx_mensal.csv')
+composition
+unique(composition)
+library(tidyverse)
+dplyr::distinct(composition)
+values(composition)
+colnames(composition)
+composition[X]
+composition['X']
+map2_chr(
+.x = colnames(composition),
+.f = unique(composition[.x]))
+composition
+# read file
+composition <- read_csv('data/composicao_ibx_mensal.csv')
+# read file
+composition <- read_csv('data/composicao_ibx_mensal.csv')
+composition
+map2_chr(
+.x = colnames(composition),
+.f = unique(composition[.x]))
+colnames(composition)
+unlist(composition)
+unique(unlist(composition))
+composition
+composition[1:]
+composition['X1':]
+composition['X1':,]
+composition['X1',]
+composition[1:2,]
+composition[,1]
+composition[,1:]
+composition[,:1]
+composition[,2:1]
+composition[,-1]
+unique(unlist(composition[-1]))
+# get unique ticks
+unq_ticks <- unique(unlist(composition[-1]))
+# remove na
+unq_ticks[NA]
+# remove na
+unq_ticks['NA']
+# remove na
+unq_ticks[!unq_ticks %in% 'NA']
+# remove na
+unq_ticks[unq_ticks %in% 'NA']
+# remove na
+unq_ticks[!unq_ticks %in% 'NA']
+# remove na
+unq_ticks[!unq_ticks %in% NA]
+# remove na
+unq_ticks <- unq_ticks[!unq_ticks %in% NA]
+map_chr(unq_ticks, ~glue::glue(.x + '.SA'))
+library(glue)
+map_chr(unq_ticks, ~glue::glue(.x + '.SA'))
+map_chr(unq_ticks, ~glue::glue('{.x} + .SA'))
+map_chr(unq_ticks, ~glue::glue('{.x}.SA'))
+getSymbols(ticks,
+from='2010-12-01',
+to='2020-02-01', periodicity='monthly')
+# put '.SA' in ticks
+ticks <- map_chr(unq_ticks, ~glue::glue('{.x}.SA'))
+getSymbols(ticks,
+from='2010-12-01',
+to='2020-02-01', periodicity='monthly')
+# put '.SA' in ticks
+ticks <- map_chr(unq_ticks, ~glue::glue('{.x}.SA'))
+getSymbols.yahoo(ticks,
+from='2010-12-01',
+to='2020-02-01', periodicity='monthly')
+ticks
+ticks[1]
+ticks[1:2]
+getSymbols(ticks[1:3],
+src = 'yahoo',
+from='2010-12-01',
+to='2020-02-01', periodicity='monthly')
+getSymbols(ticks[3:6],
+src = 'yahoo',
+from='2010-12-01',
+to='2020-02-01', periodicity='monthly')
+View(ABEV3.SA)

@@ -1,0 +1,26 @@
+{
+    "id": "AC217C47",
+    "path": "~/Projects/repositories/quant_finance/case-dev/get_data_stocks.R",
+    "project_path": "get_data_stocks.R",
+    "type": "r_source",
+    "hash": "286947563",
+    "contents": "",
+    "dirty": false,
+    "created": 1622653077187.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "76,0",
+        "scrollLine": "57"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1622681702,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1622681702716,
+    "read_only": false,
+    "read_only_alternatives": []
+}
